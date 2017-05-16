@@ -1,0 +1,25 @@
+-- home.component.html --
+<div class="content">
+  <div class="container">
+    <div class="main">
+      <div class="intro">
+        <h3><strong>Angular Demo Home</strong></h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+-- tools.component.ts --
+<div class="content">
+  <div class="container">
+    <div class="main">
+      <div class="intro">
+        <a><p>Angular</p></a>
+        <a><p>Angular CLI</p></a>
+        <a><p>Typescript</p></a>
+        <a><p>VS Code</p></a>
+      </div>
+    </div>
+  </div>
+</div>
+
