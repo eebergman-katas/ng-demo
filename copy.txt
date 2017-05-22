@@ -1,25 +1,58 @@
--- home.component.html --
+--- app.component.html ---
+<aside class="sidebar">
+  <div class="logo">
+    <h1>Ng Demo</h1>
+  </div>
+
+  <button md-button [mdMenuTriggerFor]="menu">Menu</button>
+  <md-menu #menu="mdMenu">
+    <button md-menu-item>Angular</button>
+    <button md-menu-item>Angular CLI</button>
+    <button md-menu-item>TypeScript</button>
+    <button md-menu-item>VS Code</button>
+  </md-menu>
+  <br>
+  <br>
+</aside>
+
+
+--- home.html ---
 <div class="content">
   <div class="container">
-    <div class="main">
-      <div class="intro">
-        <h3><strong>Angular Demo Home</strong></h3>
-      </div>
-    </div>
+    <h3><strong>Angular Demo Home</strong></h3>
   </div>
 </div>
 
--- tools.component.ts --
+
+Tools
+
+--- angular.html ---
 <div class="content">
   <div class="container">
-    <div class="main">
-      <div class="intro">
-        <a><p>Angular</p></a>
-        <a><p>Angular CLI</p></a>
-        <a><p>Typescript</p></a>
-        <a><p>VS Code</p></a>
-      </div>
-    </div>
+    <h3><strong>angular works!</strong></h3>
   </div>
 </div>
 
+
+--- angular-cli.html ---
+<div class="content">
+  <div class="container">
+    <h3><strong>angular-cli works!</strong></h3>
+  </div>
+</div>
+
+
+--- TypeScript ---
+<div class="content">
+  <div class="container">
+    <h3><strong>typescript works!</strong></h3>
+  </div>
+</div>
+
+
+--- vscode.html ---
+<div class="content">
+  <div class="container">
+    <h3><strong>vscode works!</strong></h3>
+  </div>
+</div>
